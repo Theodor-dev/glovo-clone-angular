@@ -2,8 +2,11 @@
   width: 100%;
   background-color: #ffc244;
   padding: 25px 80px;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
   z-index: 1010;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
 }
 
 .btn-primary {
