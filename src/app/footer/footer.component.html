@@ -1,4 +1,4 @@
-<footer>
+<footer style="margin-top: 70vh;">
   <div class="wave">
     <img src="../../assets/footer/footer-wave.svg" alt="">
   </div>
@@ -45,11 +45,18 @@
       </div>
       <div class="switch-lang">
         <div class="input-container">
-          <input type="text" readonly="readonly" placeholder="language" autocomplete="off" name="language"
-            value="Italiano">
+          <select (change)="lang(selectLang)" (click)="switchIcon()" #selectLang name="lang" id="lang">
+            <option value="Italiano">Italiano</option>
+            <option value="English">English</option>
+            <option value="Français">Français</option>
+            <option value="中國人">中國人</option>
+            <option value="Duitse">Duitse</option>
+            <option value="Español">Español</option>
+          </select>
           <span>
-            <i class="bi bi-chevron-down"></i>
+            <i class="bi {{ icon }}"></i>
           </span>
+
         </div>
       </div>
 

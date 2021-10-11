@@ -1,3 +1,7 @@
+* {
+  appearance: none;
+}
+
 a {
   text-decoration: none;
   color: #e4e4e4;
@@ -5,7 +9,7 @@ a {
   font-size: 15px;
 }
 
-input:focus-visible {
+select:focus-visible {
   outline: none;
 }
 
@@ -14,7 +18,7 @@ input:focus-visible {
   height: 70px;
   position: relative;
   display: flex;
-  background: #e9f8f5;
+  background: #fff;/* da cambiare con colore slide superiore */
 }
 
 .wave img {
@@ -95,7 +99,7 @@ input:focus-visible {
   cursor: pointer;
 }
 
- .switch-lang input {
+ .switch-lang select {
   width: 250px;
   height: 50px;
   border: 1px solid #c0c4cc;
@@ -111,3 +115,4 @@ input:focus-visible {
 .section h3 {
   color: #fff;
 }
+
