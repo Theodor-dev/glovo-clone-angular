@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+.btn-primary {
+  font-size: 14px;
+  padding: 12px 25px;
+  text-decoration: none;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #00a082;
+  box-shadow: 3px 3px 5px 0 rgb(0 0 0 / 10%);
+}
+
+.btn-primary:hover {
+  transition: 0.3s ease;
+  background-color: #008169;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+  background-color: #008169;
+}
