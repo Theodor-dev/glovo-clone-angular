@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { WorkWithUsComponent } from './work-with-us/work-with-us.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     FooterComponent,
     NavbarComponent,
+    WorkWithUsComponent,
   ],
   imports: [
     BrowserModule,
