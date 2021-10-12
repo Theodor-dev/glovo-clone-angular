@@ -4,15 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NavbarComponent } from './shared/navbar/navbar.component';
+
 import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
-    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
