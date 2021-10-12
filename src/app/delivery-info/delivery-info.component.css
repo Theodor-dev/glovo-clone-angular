@@ -1,0 +1,89 @@
+.delivery-info-container {
+  padding-top: 110px;
+}
+
+.delivery-info-container h2 {
+  font-size: 40px;
+}
+
+.delivery-info-boxes {
+  margin: 0 35px;
+}
+
+.delivery-info-box {
+  max-width: 356px;
+  padding: 5px;
+}
+
+.delivery-info-box img {
+  margin-bottom: 20px;
+}
+
+.delivery-info-box h3 {
+  font-size: 24px;
+}
+
+.delivery-info-box p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.delivery-info-box mark {
+  background-color: #FFC144;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .delivery-info-container {
+    padding-top: 54px;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .delivery-info-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delivery-info-box {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .delivery-info-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delivery-info-box {
+    margin-bottom: 40px;
+  }
+
+  .delivery-info-box:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* CSS Button */
+@media screen and (max-width: 1024px) {
+  .btn-desktop {
+    display: none;
+  }
+
+  .btn-mobile {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .btn-mobile {
+    display: none;
+  }
+
+  .btn-desktop {
+    margin-top: 52px;
+  }
+}
