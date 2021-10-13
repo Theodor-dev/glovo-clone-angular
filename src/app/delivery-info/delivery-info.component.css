@@ -71,11 +71,6 @@
   .delivery-info-boxes {
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid red;
-  }
-
-  .delivery-info-box {
-    border: 1px solid green;
   }
   
   .delivery-info-box:last-child {
