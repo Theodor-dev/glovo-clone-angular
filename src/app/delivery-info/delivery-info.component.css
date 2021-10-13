@@ -67,6 +67,27 @@
   }
 }
 
+@media screen and (min-width: 732px) and (max-width: 1024px) {
+  .delivery-info-boxes {
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid red;
+  }
+
+  .delivery-info-box {
+    border: 1px solid green;
+  }
+  
+  .delivery-info-box:last-child {
+    background-color: red;
+    margin: 0 auto;
+  }
+
+  .btn-desktop {
+    display: none;
+  }
+}
+
 /* CSS Button */
 @media screen and (max-width: 1024px) {
   .btn-desktop {
